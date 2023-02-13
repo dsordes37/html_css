@@ -1,0 +1,9 @@
+body{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}div>p{
+    display: none;
+    color: red;
+}div:hover >p{
+    display: block;
+}

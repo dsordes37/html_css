@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #03A678, #014040);
+}section{
+    background-color: #ffefe1;
+    color: #3d1c02;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 5px 5px 15px #001d1d;
+    border-radius: 10px;
+}h1{
+    font-size: 30px;
+}p#a{
+    text-align: center;
+}
