@@ -1,6 +1,8 @@
 # html_css
 to aprendendo agora
- 
+
+
+<h2>Exercícios propostos</h2>
 <a href="https://dsordes37.github.io/html_css/ex001/" target="_blank" >ex001</a>
 
 <a href="https://dsordes37.github.io/html_css/ex002/" target="_blank" >ex002</a>
@@ -54,6 +56,8 @@ to aprendendo agora
 
 <a href="https://dsordes37.github.io/html_css/ex023/" target="_blank" >ex023</a>
 <!--=========================================================-->
+
+<h2>Desafios propostos</h2>
 
 <a href="https://dsordes37.github.io/html_css/des001/" target="_blank" >des001</a>
 
