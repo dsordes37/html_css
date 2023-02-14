@@ -25,11 +25,15 @@ to aprendendo agora
 
 <a href="https://dsordes37.github.io/html_css/ex011/" target="_blank" >ex011</a>
 
+<a href="https://dsordes37.github.io/html_css/ex011b/" target="_blank" >ex011b</a>
+
 <a href="https://dsordes37.github.io/html_css/ex012/" target="_blank" >ex012</a>
 
 <a href="https://dsordes37.github.io/html_css/ex013/" target="_blank" >ex013</a>
 
 <a href="https://dsordes37.github.io/html_css/ex014/" target="_blank" >ex014</a>
+
+<a href="https://dsordes37.github.io/html_css/ex014b/" target="_blank" >ex014b</a>
 
 <a href="https://dsordes37.github.io/html_css/ex015/" target="_blank" >ex015</a>
 
