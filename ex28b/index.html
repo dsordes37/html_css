@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alinhamento vertical 2</title>
+
+    <style>
+        body{
+            background: lime url("https://s1.1zoom.me/big3/346/Switzerland_Mountains_492270.jpg") center center fixed;
+            background-size: cover;
+        }main{
+            position: relative;
+            height: 95vh;
+
+
+        }article{
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.205);
+            backdrop-filter: blur(0.8px);
+            
+
+            min-width: 400px;
+            min-height: 400px;
+            max-width: 600px;
+            max-width: 600px;
+
+            top: 50%;
+            left: 50%;
+
+            translate: -50% -50%;
+
+            border-radius: 10px;
+            box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.418);
+        }h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>
+                testando o blur
+            </h1>
+
+        </article>
+    </main>
+    
+</body>
+</html>
