@@ -6,6 +6,8 @@
     --cor2:#491d34;
     --cor3:#60a7db;
     --cor4:#f55d6a;
+    --trp:rgba(255, 255, 255, 0.295);
+    --shd: 0px 2px 2px 2px rgba(0, 0, 0, 0.171);
 }
 
 *{
@@ -22,8 +24,10 @@ header{
     min-height: 120px;
 
     text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.171);
 }header>h1{
     font-size: 5em;
+    font-variant: small-caps;
 }header>p{
     font-family: sans-serif;
 }
@@ -31,8 +35,7 @@ header{
 
 main{
     
-    background: var(--cor2) url("imgs/fundo01.jpg") center center fixed;
-    background-position: cover;
+    background-color: var(--cor2);
 
     
 }
@@ -45,22 +48,28 @@ main p{
 
     font-size: max(1.8em, 3vw);
     text-align: left;
-    padding: 10px;
+    line-height: 1.8em;
+    
+    padding: 10vh 0px 10vh 10px;
 
-    font-family: sans-serif;
+    font-family: serif;
+
 
     
 }
 .tra p{
-    background-color: rgba(255, 255, 255, 0.295);
+    background-color: var(--trp);
     border-radius: 10px;
     backdrop-filter: blur(2px);
+
+    box-shadow: var(--shd);
 }
 div{
     
     padding: 40px;
     min-width: 300px;
     min-height: 100vh;
+    
 }
 
 
@@ -81,4 +90,19 @@ footer{
     padding: 5px;
 
     font-family: sans-serif;
+}
+
+#um{
+    background-image: url(imgs/fundo01.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+#dois{
+    background-image: url(imgs/fundo02.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+
 }
