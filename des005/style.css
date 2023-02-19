@@ -31,7 +31,7 @@ header{
 
 main{
     
-    background: var(--cor2) url("imgs/fundo01.jpg") left center fixed;
+    background: var(--cor2) url("imgs/fundo01.jpg") center center fixed;
     background-position: cover;
 
     
