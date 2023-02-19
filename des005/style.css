@@ -1,29 +1,66 @@
 @charset "UTF-8";
 
+
+:root{
+    --cor1:#10122f;
+    --cor2:#491d34;
+    --cor3:#60a7db;
+    --cor4:#f55d6a;
+}
+
 *{
     padding: 0px;
     margin: 0px;
 }
 
+header{
+    background-color: var(--cor1);
+    color: white;
+
+    padding: 20px;
+
+    height: 120px;
+
+    text-align: center;
+}header>h1{
+    font-size: 5em;
+}header>p{
+    font-family: sans-serif;
+}
+
 
 main{
     
-    background: lime url("https://s1.1zoom.me/big3/346/Switzerland_Mountains_492270.jpg") left center fixed;
+    background: var(--cor2) url("imgs/fundo01.jpg") left center fixed;
     background-position: cover;
+
+    
 }
 main p{
     
 
-    background-color: gray;
-    width: 45%;
+    
+    width: max(45%, 300px) ;
+    min-width: 300px;
 
-    font-size: 3em;
+    font-size: max(1.8em, 3vw);
+    text-align: left;
+    padding: 10px;
+
+    font-family: sans-serif;
 
     
+}
+.tra p{
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
 }
 div{
     
     padding: 40px;
+    min-width: 300px;
+    min-height: 100vh;
 }
 
 
@@ -31,4 +68,17 @@ div{
 
 .opa{
     background-color: white;
+}
+
+
+footer{
+    background-color: var(--cor1);
+    color: white;
+
+    text-align: center;
+
+    height: 20px;
+    padding: 5px;
+
+    font-family: sans-serif;
 }
