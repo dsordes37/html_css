@@ -74,6 +74,10 @@
 <a href="https://dsordes37.github.io/html_css/ex028b/" target="_blank" >ex028b</a>
 
 <a href="https://dsordes37.github.io/html_css/ex029/" target="_blank" >ex029</a>
+
+<a href="https://dsordes37.github.io/html_css/ex030/" target="_blank" >ex030</a>
+
+<a href="https://dsordes37.github.io/html_css/ex030b/" target="_blank" >ex030b</a>
 <!--=========================================================-->
 
 <h2>Desafios propostos</h2>
