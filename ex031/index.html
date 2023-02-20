@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas maiores</title>
+    <style>
+        body{
+            font-size: 1.5em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.267);
+            border: 2px solid black;
+        }td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+        tbody>tr:nth-child(2n){
+            background-color: rgba(127, 255, 212, 0.486);
+        }
+        
+        th{
+            background-color: gray;
+        }td:hover{
+            background-color: lightgray;
+            box-shadow: 2px 3px 0px 0px black;
+        }caption{
+            border: 2px solid black;
+            border-bottom: none;
+            background-color: gray;
+            font-weight: bolder;
+            padding: 10px;
+        }.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Tabelas maiores
+
+        são divididas em:
+        Thead
+        Tbody
+        Tfoot
+
+        que podem ter 
+        tr: linhas
+        td: dados
+        th: cabeçalhos ou legendas
+    -->
+
+    <h1>Minha primeira tabela grande.</h1>
+    
+
+    <table>
+        <caption>Vezes em que as crianças foram ao parque durante a vida.</caption>
+        <thead>
+            <tr>
+                <th scope="col">Ano</th>
+                <th scope="col">Joãozinho</th>
+                <th scope="col">Zezinho</th>
+                <th scope="col">Luizinho</th>
+                <th scope="col">Aninha</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">2004</th>
+                <td class="num">3</td>
+                <td class="num">2</td>
+                <td class="num">0</td>
+                <td class="num">5</td>
+            </tr>
+            <tr>
+                <th scope="row">2005</th>
+                <td class="num">1</td>
+                <td class="num">6</td>
+                <td class="num">8</td>
+                <td class="num">3</td>
+            </tr>
+            <tr>
+                <th scope="row">2006</th>
+                <td class="num">8</td>
+                <td class="num">9</td>
+                <td class="num">10</td>
+                <td class="num">6</td>
+            </tr>
+            <tr>
+                <th scope="row">2007</th>
+                <td class="num">3</td>
+                <td class="num">4</td>
+                <td class="num">8</td>
+                <td class="num">5</td>
+            </tr>
+            <tr>
+                <th scope="row">2008</th>
+                <td class="num">3</td>
+                <td class="num">5</td>
+                <td class="num">9</td>
+                <td class="num">6</td>
+            </tr>
+            <tr>
+                <th scope="row">2009</th>
+                <td class="num">4</td>
+                <td class="num">25</td>
+                <td class="num">3</td>
+                <td class="num">4</td>
+            </tr>
+            <tr>
+                <th scope="row">2010</th>
+                <td class="num">5</td>
+                <td class="num">6</td>
+                <td class="num">0</td>
+                <td class="num">9</td>
+            </tr>
+            <tr>
+                <th scope="row">2011</th>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">9</td>
+                <td class="num">5</td>
+            </tr>
+            <tr>
+                <th scope="row">2012</th>
+                <td class="num">9</td>
+                <td class="num">10</td>
+                <td class="num">1</td>
+                <td class="num">3</td>
+            </tr>
+            <tr>
+                <th scope="row">2013</th>
+                <td class="num">23</td>
+                <td class="num">3</td>
+                <td class="num">5</td>
+                <td class="num">4</td>
+            </tr><tr>
+                <th scope="row">2014</th>
+                <td class="num">8</td>
+                <td class="num">6</td>
+                <td class="num">5</td>
+                <td class="num">9</td>
+            </tr>
+            <tr>
+                <th scope="row">2015</th>
+                <td class="num">4</td>
+                <td class="num">7</td>
+                <td class="num">4</td>
+                <td class="num">55</td>
+            </tr>
+            <tr>
+                <th scope="row">2016</th>
+                <td class="num">5</td>
+                <td class="num">4</td>
+                <td class="num">3</td>
+                <td class="num">3</td>
+            </tr>
+            <tr>
+                <th scope="row">2017</th>
+                <td class="num">8</td>
+                <td class="num">9</td>
+                <td class="num">13</td>
+                <td class="num">1</td>
+            </tr>
+            <tr>
+                <th scope="row">2018</th>
+                <td class="num">10</td>
+                <td class="num">1</td>
+                <td class="num">3</td>
+                <td class="num">4</td>
+            </tr>
+            <tr>
+                <th scope="row">2019</th>
+                <td class="num">7</td>
+                <td class="num">7</td>
+                <td class="num">8</td>
+                <td class="num">5</td>
+            </tr>
+            <tr>
+                <th scope="row">2020</th>
+                <td class="num">4</td>
+                <td class="num">9</td>
+                <td class="num">10</td>
+                <td class="num">0</td>
+            </tr>
+            <tr>
+                <th scope="row">2021</th>
+                <td class="num">7</td>
+                <td class="num">22</td>
+                <td class="num">3</td>
+                <td class="num">8</td>
+            </tr>
+            <tr>
+                <th scope="row">2022</th>
+                <td class="num">7</td>
+                <td class="num">17</td>
+                <td class="num">12</td>
+                <td class="num">9</td>
+            </tr>
+            <tr>
+                <th scope="row">2023</th>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+                <td class="num">0</td>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">2024</th>
+                <th>Morreu</th>
+                <th>Morreu</th>
+                <th>Morreu</th>
+                <th>Morreu</th>
+            </tr>
+
+        </tfoot>
+    </table>
+
+
+    
+</body>
+</html>
