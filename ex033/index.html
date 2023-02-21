@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>css, marcando colgroups</title>
+    <style>
+        body{
+            font-size: 1.5em;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }td, th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            
+        }table{
+            border-collapse: collapse;
+        }th{
+            background-color: gray;
+        }.hero{
+            background-color: red;
+        }#det{
+            background-color: brown;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>marcando colunas inteiras em css</h1>
+
+    <table>
+        <colgroup>
+            <col class="hero">
+            <col id="det" span="2">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Heroi</th>
+                <th>Identidade secreta</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Homem-Aranha</td>
+                <td>Piter Parker</td>
+                <td>Nova York</td>
+
+            </tr>
+            <tr>
+                <td>Demolidor</td>
+                <td>Matt Murdock</td>
+                <td>Nova York</td>
+            </tr>
+            <tr>
+                <td>Batman</td>
+                <td>Bruce Wayne</td>
+                <td>Gothan-City</td>
+            </tr>
+            <tr>
+                <td>Mulher Hulk</td>
+                <td>Jennifer Walters</td>
+                <td>Califórnia</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
