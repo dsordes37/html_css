@@ -43,7 +43,7 @@ main p{
     
 
     
-    width: max(45%, 300px) ;
+    width: max(45%, 250px) ;
     min-width: 300px;
 
     font-size: max(1.8em, 3vw);
